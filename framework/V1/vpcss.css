@@ -13,6 +13,8 @@ a {
     color: var(--accent-blue);
     text-decoration: none;
 }
+
+
 /*Colors font*/
 .text-primary {
     color: var(--text-primary);
@@ -20,12 +22,14 @@ a {
 .text-secondary {
     color: var(--text-secondary);
 }
+
+
 /*containers*/
 .l-cont, .m-cont, .s-cont {
     background-color: var(--bg-container);
     margin-block: 10px;
     padding: 15px;
-    box-shadow: 1px 1px 2px 2px var(--shadow-gray);
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
 }
 .l-cont {
     width: 100%;
@@ -36,6 +40,7 @@ a {
 .s-cont {
     width: 25%;
 }
+
 
 /*Margins*/
 .mrg-i-5vw {
@@ -50,9 +55,79 @@ a {
 .mrg-i-10p {
     margin-inline: 10%;
 }
+.mrg-i-15 {
+    margin-inline: 15px;
+}
+
+.mrg-b-5vw {
+    margin-block: 5vh;
+}
+.mrg-b-10vw {
+    margin-block: 10vh;
+}
+.mrg-b-5p {
+    margin-block: 5%;
+}
+.mrg-b-10p {
+    margin-block: 10%;
+}
+.mrg-b-15 {
+    margin-block: 15px;
+}
+
+
+/*paddings*/
+.pd-i-5p {
+    padding-inline: 5%;
+}
+.pd-i-10p {
+    padding-inline: 10%;
+}
+.pd-i-5 {
+    padding-inline: 5px;
+}
+.pd-i-10 {
+    padding-inline: 10px;
+}
+.pd-i-15 {
+    padding-inline: 15px;
+}
+.pd-i-20 {
+    padding-inline: 20px;
+}
+.pd-i-25 {
+    padding-inline: 25px;
+}
+
+
+.pd-b-5p {
+    padding-block: 5%;
+}
+.pd-b-10p {
+    padding-block: 10%;
+}
+.pd-b-5 {
+    padding-block: 5px;
+}
+.pd-b-10 {
+    padding-block: 10px;
+}
+.pd-b-15 {
+    padding-block: 15px;
+}
+.pd-b-20 {
+    padding-block: 20px;
+}
+.pd-b-25 {
+    padding-block: 25px;
+}
+
+
+/*widths*/
 .max-1200px {
     max-width: 1200px;
 }
+
 
 /*border-radius*/
 .brdrad-5, .brdrad-low {
@@ -65,6 +140,7 @@ a {
     border-radius: 30px;
 }
 
+
 /*Flex directions*/
 .fl-row {
     display: flex;
@@ -74,6 +150,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 
 /*Gaps for flexes*/
 .gap-5 {
@@ -95,6 +172,23 @@ a {
 .gap-50 {
     gap: 50px;
     row-gap: 50px;
+}
+
+
+/*navs and their aligns*/
+.t-nav, .nav-al-cent, .nav-al-l, .nav-al-r {
+    display: flex;
+    background-color: var(--bg-nav);
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
+}
+.nav-al-cent {
+    justify-content: center;
+}
+.nav-al-l {
+    justify-content: left;
+}
+.nav-al-r {
+    justify-content: right;
 }
 
 @media (min-width:1300px) {
