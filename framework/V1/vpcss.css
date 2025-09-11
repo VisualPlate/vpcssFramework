@@ -264,6 +264,22 @@ a {
 .nav-al-r {
     justify-content: right;
 }
+.pos-top, .pos-bot, .pos-left, .pos-right {
+    position: fixed;
+}
+.pos-top {
+    top: 0;
+}
+.pos-bot {
+    bottom: 0;
+}
+.pos-left {
+    left: 0;
+}
+.pos-right {
+    right: 0;
+}
+
 /*heights*/
 .h-100p {
     height: 100%;
@@ -299,6 +315,12 @@ a {
     width: 260px;
     height: 100vh;
 }
+.default-sidenav-t-part {
+    /*top div for default sidenav*/
+    display: flex;
+    justify-content: right;
+    width: calc(100vw - 260px);
+}
 
 /*Others*/
 .scroll-div {
@@ -312,8 +334,6 @@ a {
     .max-1200px {
         margin: auto;
     }
-}
-@media (max-width:1300px) {
     .default-sidenav {
         display: none;
     }
