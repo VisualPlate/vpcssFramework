@@ -1,3 +1,12 @@
+:root {
+    --coffee: #aa856e;
+    --coffee-light: #caa188;
+    --accent-blue:#6c67b3;
+    --accent-blue-secondary:#938ecd;
+    --accent-blue-dark:#54507c;
+    --code-green:#6A9955;
+    --code-green-secondary:#547345;
+}
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -21,6 +30,38 @@ a {
 }
 .text-secondary {
     color: var(--text-secondary);
+}
+.text-coffee {
+    color: var(--coffee);
+}
+.text-coffee-light {
+    color: var(--coffee-light);
+}
+.text-code-green {
+    color: var(--code-green);
+}
+.text-code-green-secondary {
+    color: var(--code-green-secondary);
+}
+
+/*backgrounds*/
+.bg-primary {
+    background-color: var(--text-primary);
+}
+.bg-secondary {
+    background-color: var(--text-secondary);
+}
+.bg-coffee {
+    background-color: var(--coffee);
+}
+.bg-coffee-light {
+    background-color: var(--coffee-light);
+}
+.bg-code-green {
+    background-color: var(--code-green);
+}
+.bg-code-green-secondary {
+    background-color: var(--code-green-secondary);
 }
 
 
@@ -221,11 +262,55 @@ a {
 .nav-al-r {
     justify-content: right;
 }
-/*Medias*/
+/*heights*/
+.h-100p {
+    height: 100%;
+}
+.h-80p {
+    height: 80%;
+}
+.h-50p {
+    height: 50%;
+}
+.h-25p {
+    height: 25%;
+}
 
+/*widths*/
+.w-100p {
+    width: 100%;
+}
+.w-80p {
+    width: 80%;
+}
+.w-50p {
+    width: 50%;
+}
+.h-25p {
+    width: 25%;
+}
+
+/*menus etc.*/
+.default-sidenav {
+    /*this is not static, 
+    depending on your case you may need to make your css style do so*/
+    width: 260px;
+    height: 100vh;
+}
+
+/*Others*/
+.scroll-div {
+    overflow-y: auto;
+}
+
+
+/*Medias*/
 @media (min-width:1300px) {
     /*just in case so margin doesnt break*/
     .max-1200px {
         margin: auto;
+    }
+    .default-sidenav {
+        display: none;
     }
 }
