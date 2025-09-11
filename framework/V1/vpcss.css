@@ -58,6 +58,12 @@ a {
 .mrg-i-15 {
     margin-inline: 15px;
 }
+.mrg-i-20 {
+    margin-inline: 20px;
+}
+.mrg-i-25 {
+    margin-inline: 25px;
+}
 
 .mrg-b-5vw {
     margin-block: 5vh;
@@ -73,6 +79,12 @@ a {
 }
 .mrg-b-15 {
     margin-block: 15px;
+}
+.mrg-b-20 {
+    margin-block: 20px;
+}
+.mrg-b-25 {
+    margin-block: 25px;
 }
 
 
@@ -123,11 +135,22 @@ a {
 }
 
 
-/*widths*/
-.max-1200px {
+/*max widths for stuffs*/
+.max-2400px, .max-xl {
+    max-width: 2400px;
+}
+.max-1200px, .max-l {
     max-width: 1200px;
 }
-
+.max-800px, .max-m {
+    max-width: 800px;
+}
+.max-600px .max-s {
+    max-width: 600px;
+}
+.max-300px .max-xs {
+    max-width: 300px;
+}
 
 /*border-radius*/
 .brdrad-5, .brdrad-low {
@@ -149,6 +172,14 @@ a {
 .fl-col {
     display: flex;
     flex-direction: column;
+}
+.fl-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fl-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
@@ -190,8 +221,10 @@ a {
 .nav-al-r {
     justify-content: right;
 }
+/*Medias*/
 
 @media (min-width:1300px) {
+    /*just in case so margin doesnt break*/
     .max-1200px {
         margin: auto;
     }
