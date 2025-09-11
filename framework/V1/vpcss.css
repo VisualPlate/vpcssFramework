@@ -7,9 +7,11 @@
     --code-green:#6A9955;
     --code-green-secondary:#547345;
 }
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 body {
     margin: 0;
     background-color: var(--bg-body);
@@ -310,6 +312,8 @@ a {
     .max-1200px {
         margin: auto;
     }
+}
+@media (max-width:1300px) {
     .default-sidenav {
         display: none;
     }
