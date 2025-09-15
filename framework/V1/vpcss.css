@@ -356,9 +356,15 @@ a {
     .max-1200px {
         margin: auto;
     }
-}@media (max-width:1300px) {
+}
+@media (max-width:1300px) {
     .default-sidenav {
         display: none;
+    }
+    .default-sidenav-t-part {
+        /*top div for default sidenav*/
+        justify-content: center;
+        width: 100vw;
     }
 }
 
