@@ -1,0 +1,129 @@
+:root {
+    --accent-blue:#6c67b3;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-body);
+    color: var(--text-secondary);
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+/*containers*/
+.l-cont, .m-cont, .s-cont {
+    background-color: var(--bg-container);
+    margin-block: 10px;
+    padding: 15px;
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
+}
+.l-cont {
+    width: 100%;
+}
+.m-cont {
+    width: 50%;
+}
+.s-cont {
+    width: 25%;
+}
+
+/*max widths for stuffs*/
+.max-2400px, .max-xl {
+    max-width: 2400px;
+}
+.max-1200px, .max-l {
+    max-width: 1200px;
+}
+.max-800px, .max-m {
+    max-width: 800px;
+}
+.max-600px .max-s {
+    max-width: 600px;
+}
+.max-300px .max-xs {
+    max-width: 300px;
+}
+
+/*border-radius*/
+.brdrad-5, .brdrad-low {
+    border-radius: 5px;
+}
+.brdrad-15, .brdrad-med {
+    border-radius: 15px;
+}
+.brdrad-30, .brdrad-hi {
+    border-radius: 30px;
+}
+
+/*Flex directions*/
+.fl-row {
+    display: flex;
+    flex-direction: row;
+}
+.fl-col {
+    display: flex;
+    flex-direction: column;
+}
+.fl-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fl-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*Gaps for flexes*/
+.gap-5 {
+    gap: 5px;
+    row-gap: 5px;
+}
+.gap-10 {
+    gap: 10px;
+    row-gap: 10px;
+}
+.gap-15 {
+    gap: 15px;
+    row-gap: 15px;
+}
+.gap-25 {
+    gap: 25px;
+    row-gap: 25px;
+}
+.gap-50 {
+    gap: 50px;
+    row-gap: 50px;
+}
+
+/*absolute positions for screen*/
+.pos-top, .pos-bot, .pos-left, .pos-right {
+    position: fixed;
+}
+.pos-top {
+    top: 0;
+}
+.pos-bot {
+    bottom: 0;
+}
+.pos-left {
+    left: 0;
+}
+.pos-right {
+    right: 0;
+}
+
+/*Medias*/
+@media (min-width:1300px) {
+    /*just in case so margin doesnt break*/
+    .max-1200px {
+        margin: auto;
+    }
+}

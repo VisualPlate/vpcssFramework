@@ -1,0 +1,27 @@
+/*heights*/
+.h-100p {
+    height: 100%;
+}
+.h-80p {
+    height: 80%;
+}
+.h-50p {
+    height: 50%;
+}
+.h-25p {
+    height: 25%;
+}
+
+/*widths*/
+.w-100p {
+    width: 100%;
+}
+.w-80p {
+    width: 80%;
+}
+.w-50p {
+    width: 50%;
+}
+.h-25p {
+    width: 25%;
+}

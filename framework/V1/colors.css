@@ -1,0 +1,58 @@
+:root {
+    --coffee: #aa856e;
+    --coffee-light: #caa188;
+    --accent-blue:#6c67b3;
+    --accent-blue-secondary:#938ecd;
+    --accent-blue-dark:#54507c;
+    --code-green:#6A9955;
+    --code-green-secondary:#547345;
+}
+
+/*Colors font*/
+.text-primary {
+    color: var(--text-primary);
+}
+.text-secondary {
+    color: var(--text-secondary);
+}
+.text-coffee {
+    color: var(--coffee);
+}
+.text-coffee-light {
+    color: var(--coffee-light);
+}
+.text-code-green {
+    color: var(--code-green);
+}
+.text-code-green-secondary {
+    color: var(--code-green-secondary);
+}
+
+/*backgrounds*/
+.bg-body {
+    background-color: var(--bg-body);
+}
+.bg-container {
+    background-color: var(--bg-container);
+}
+.bg-nav {
+    background-color: var(--bg-nav);
+}
+.bg-primary {
+    background-color: var(--text-primary);
+}
+.bg-secondary {
+    background-color: var(--text-secondary);
+}
+.bg-coffee {
+    background-color: var(--coffee);
+}
+.bg-coffee-light {
+    background-color: var(--coffee-light);
+}
+.bg-code-green {
+    background-color: var(--code-green);
+}
+.bg-code-green-secondary {
+    background-color: var(--code-green-secondary);
+}
