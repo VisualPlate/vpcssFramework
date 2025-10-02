@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="stylesheet" href="../vpcss.css">
+    <link rel="stylesheet" href="../themeConfig/default.css">
+    <link rel="stylesheet" href="scroll.css">
+    <style>body{font-family: Arial, Helvetica, sans-serif;}</style>
+</head>
+<body>
+    <div class="max-1200 grid-1 grid-cent">
+        <h1 class="text-primary">Documentation V1.1</h1>
+        <div class="cont-l mrg-bl-10 scroll">
+            <h1 class="text-primary">Read Me</h1>
+            <div class="cont-l mrg-bl-10">To use this framework put this code inside head:<pre><code><p>&lt;link rel="https://visualplate.github.io/vpcssFramework/framework/V1_1/vpcss.css"&gt;</p><p>&lt;link rel="https://visualplate.github.io/vpcssFramework/framework/V1_1/themeConfig/default.css"&gt;</p></code></pre></div>
+            <div class="cont-l mrg-bl-10">There may be bugs and all features aren't show currently in documentation. For more features, check out the <a href="https://github.com/VisualPlate/vpcssFramework">source</a> file</div>
+        </div>
+        <div class="cont-l mrg-bl-10">
+            <h1 class="text-primary">Pre-made Containers</h1>
+            <div class="grid-2-dyna gap-15">
+                <div class="col brd-rad-15">
+                    <div class="space-between">
+                        <div>.cont-s</div>
+                        <div>Small container, 25%</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.cont-m</div>
+                        <div>Medium container, 50%</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.cont-l</div>
+                        <div>Large container, 100%</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.cont-d-s</div>
+                        <div>Small hidden container, 25%</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.cont-d-m</div>
+                        <div>Medium hidden container, 50%</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.cont-d-l</div>
+                        <div>Large hidden container, 100%</div>
+                    </div>
+                </div>
+                <div class="cont-l"><pre><code><p>&lt;div class="cont-s"&gt;
+    Hello World!
+&lt;/div&gt;</p></code></pre><pre><code><p>&lt;div class="cont-m"&gt;
+    Hello World!
+&lt;/div&gt;</p></code></pre><pre><code><p>&lt;div class="cont-l"&gt;
+    Hello World!
+&lt;/div&gt;</p></code></pre>
+
+</div>
+            </div>
+        </div>
+        <div class="cont-l mrg-bl-10">
+            <h1 class="text-primary">Rows, Colums</h1>
+            <div class="grid-2-dyna gap-15">
+                <div class="col brd-rad-15">
+                    <div class="space-between">
+                        <div>.col</div>
+                        <div>Column, default</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.row</div>
+                        <div>Row, default</div>
+                    </div>
+                </div>
+                <div class="cont-l"><pre><code>
+<p>&lt;div class="row"&gt;
+    &lt;div&gt;Row's first column&lt;/div&gt;
+    &lt;div&gt;Row's second column&lt;/div&gt;
+&lt;/div&gt;
+                    </p></code></pre>
+                    <pre><code>
+<p>&lt;div class="col"&gt;
+    &lt;div&gt;First row&lt;/div&gt;
+    &lt;div&gt;Second row&lt;/div&gt;
+&lt;/div&gt;
+                    </p></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="cont-l mrg-bl-10">
+            <h1 class="text-primary">Grids</h1>
+            <div class="grid-2-dyna gap-15">
+                <div class="col brd-rad-15">
+                    <div class="space-between">
+                        <div>.grid-1</div>
+                        <div>Grid with 1 column in each row</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.grid-2</div>
+                        <div>Grid with 2 column in each row</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.grid-3</div>
+                        <div>Grid with 3 column in each row</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.grid-4</div>
+                        <div>Grid with 4 column in each row</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.grid-5</div>
+                        <div>Grid with 5 column in each row</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.grid-6</div>
+                        <div>Grid with 6 column in each row</div>
+                    </div>
+                </div>
+                <div class="cont-l"><pre><code>
+<p>&lt;div class="grid-[x]"&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+&lt;/div&gt;
+                    </p></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="cont-l mrg-bl-10">
+            <h1 class="text-primary">Gaps</h1>
+            <div class="grid-2-dyna gap-15">
+                <div class="col brd-rad-15">
+                    <div class="space-between">
+                        <div>.gap-[x]</div>
+                        <div>Column and row gap</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.col-gap-[x]</div>
+                        <div>Column gap</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.row-gap-[x]</div>
+                        <div>row gap</div>
+                    </div>
+                </div>
+                <div class="cont-l"><pre><code>
+<p>&lt;div class="grid-[x] gap-[x]"&gt;
+    &lt;div class="cont-s"&gt;Hello World!&lt;/div&gt;
+    &lt;div class="cont-s"&gt;Hello World!&lt;/div&gt;
+    &lt;div class="cont-s"&gt;Hello World!&lt;/div&gt;
+    &lt;div class="cont-s"&gt;Hello World!&lt;/div&gt;
+&lt;/div&gt;
+                    </p></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="cont-l mrg-bl-10">
+            <h1 class="text-primary">Max-widths</h1>
+            <div class="grid-2-dyna gap-15">
+                <div class="col brd-rad-15">
+                    <div class="space-between">
+                        <div>.max-300</div>
+                        <div>Max-width of 300 pixels</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.max-600</div>
+                        <div>Max-width of 600 pixels</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.max-1200</div>
+                        <div>Max-width of 1200 pixels</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.max-1600</div>
+                        <div>Max-width of 1600 pixels</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.max-1900</div>
+                        <div>Max-width of 1900 pixels</div>
+                    </div>
+                    <div class="space-between">
+                        <div>.max-2400</div>
+                        <div>Max-width of 2400 pixels</div>
+                    </div>
+                </div>
+                <div class="cont-l"><pre><code>
+<p>&lt;div class="max-[x]"&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+    &lt;div&gt;Hello World!&lt;/div&gt;
+&lt;/div&gt;
+                    </p></code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
