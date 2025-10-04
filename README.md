@@ -32,7 +32,7 @@ To add containers, you can use this example inside ``` <body> ```
 
 ## For Older version
   ⚡Older version still work - they arent just updated anymore  
-  ⚡They will be available - as long as this project exists somewhere
+  ⚡They will be available - as long as this project exists somewhere  
   ⚡To use older version browse and check out the /framewrok folder for versions
   
 ## 📜 License
