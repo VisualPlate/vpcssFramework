@@ -2,14 +2,9 @@ body {
     background-color: var(--bg-body);
     color: var(--text-secondary);
 }
-.text-primary {
-    color: var(--text-primary);
-}
-.text-secondary {
-    color: var(--text-secondary);
-}
+.text-primary {color: var(--text-primary);}
+.text-secondary {color: var(--text-secondary);}
 h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
-
 /*containers*/
 .cont-l, .cont-m, .cont-s {
     background-color: var(--bg-container);
@@ -20,7 +15,6 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 .cont-l {width: 100%;}
 .cont-m {width: 50%;}
 .cont-s {width: 25%;}
-
 /*containers that are supposed to divide instead to be shown*/
 .cont-d-l, .cont-d-m, .cont-d-s {
     padding: 15px;
@@ -29,18 +23,16 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 .cont-d-l {width: 100%;}
 .cont-d-m {width: 50%;}
 .cont-d-s {width: 25%;}
-
 /*grid containers*/
 .grid-1,.grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-2-dyna {display: grid;}
-
+/*-dyna means it will dynamically change its layout depending on screen width*/
 .grid-1 {grid-template-columns: repeat(1,1fr);}
 .grid-2, .grid-2-dyna {grid-template-columns: repeat(2,1fr);}
 .grid-3 {grid-template-columns: repeat(3,1fr);}
 .grid-4 {grid-template-columns: repeat(4,1fr);}
 .grid-5 {grid-template-columns: repeat(5,1fr);}
 .grid-6 {grid-template-columns: repeat(6,1fr);}
-
-
+/*grid content aligns*/
 .grid-cent, .grid-left, .grid-right {
     width: 100%;
     margin: 0 auto;
@@ -57,6 +49,12 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
     align-items: center;
     justify-items: center;
 }
+/*positions*/
+.pos-top, .pos-bot, .pos-left, .pos-right {position: fixed;}
+.pos-top {top: 0;}
+.pos-bot {bottom: 0;}
+.pos-left {left: 0;}
+.pos-right {right: 0;}
 /*rows and cols*/
 .row {
     display: flex;
@@ -71,6 +69,18 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
     display: flex;
     justify-content: space-between;
 }
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*text aligns*/
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
 /*gaps*/ 
 .col-gap-50 {column-gap: 50px;}
 .col-gap-25 {column-gap: 25px;}
@@ -78,21 +88,18 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 .col-gap-15 {column-gap: 15px;}
 .col-gap-10 {column-gap: 10px;}
 .col-gap-5 {column-gap: 5px;}
-
 .row-gap-50 {row-gap: 50px;}
 .row-gap-25 {row-gap: 25px;}
 .row-gap-20 {row-gap: 20px;}
 .row-gap-15 {row-gap: 15px;}
 .row-gap-10 {row-gap: 10px;}
 .row-gap-5 {row-gap: 5px;}
-
 .gap-50 {gap: 50px;}
 .gap-25 {gap: 25px;}
 .gap-20 {gap: 20px;}
 .gap-15 {gap: 15px;}
 .gap-10 {gap: 10px;}
 .gap-5 {gap: 5px;}
-
 /*mrg, -bl- being block and -in- for inline*/
 .mrg-bl-50 {margin-block: 50px;}
 .mrg-bl-25 {margin-block: 25px;}
@@ -100,48 +107,44 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 .mrg-bl-15 {margin-block: 15px;}
 .mrg-bl-10 {margin-block: 10px;}
 .mrg-bl-5 {margin-block: 5px;}
-
 .mrg-in-50 {margin-inline: 50px;}
 .mrg-in-25 {margin-inline: 25px;}
 .mrg-in-20 {margin-inline: 20px;}
 .mrg-in-15 {margin-inline: 15px;}
 .mrg-in-10 {margin-inline: 10px;}
 .mrg-in-5 {margin-inline: 5px;}
-
-/*widths*/
+/*widths(scales in general, incl. heights)*/
 .max-2400, .max-xxl {max-width: 2400px;}
 .max-1900, .max-xl {max-width: 1900px;}
 .max-1600, .max-l {max-width: 1600px;}
 .max-1200, .max-m {max-width: 1200px;}
 .max-600, .max-s {max-width: 600px;}
 .max-300, .max-xs {max-width: 300px;}
-/*others*/
-.outline-secondary {border: var(--text-secondary) solid 1px;padding: 5px;}
-.outline-primary {border: var(--text-primary) solid 1px;padding: 5px;}
-
+.w-100{width: 100%;}
+.w-75{width: 75%;}
+.w-50{width: 50%;}
+.w-33{width: 33%;}
+.w-25{width: 25%;}
+.h-100{height: 100%;}
+.h-75{height: 75%;}
+.h-50{height: 50%;}
+.h-25{height: 25%;}
+/*border radius*/
 .brd-rad-25 {border-radius: 25px;}
 .brd-rad-20 {border-radius: 20px;}
 .brd-rad-15 {border-radius: 15px;}
 .brd-rad-10 {border-radius: 10px;}
 .brd-rad-5 {border-radius: 5px;}
-
+/*others*/
+.outline-secondary {border: var(--text-secondary) solid 1px;padding: 5px;}
+.outline-primary {border: var(--text-primary) solid 1px;padding: 5px;}
 /*cont-[value] medias only for preventing breaking on smaller screens*/
 @media (max-width:1200px) {
-    .cont-s {
-        width: 50%;
-    }
-    .cont-m {
-        width: 75%;
-    }
+    .cont-s {width: 50%;}
+    .cont-m {width: 75%;}
 }
 @media (max-width:600px) {
-    .cont-s {
-        width: 100%;
-    }
-    .cont-m {
-        width: 100%;
-    }
-    .grid-2-dyna {
-        grid-template-columns: repeat(1,1fr);
-    }
+    .cont-s {width: 100%;}
+    .cont-m {width: 100%;}
+    .grid-2-dyna {grid-template-columns: repeat(1,1fr);}
 }
