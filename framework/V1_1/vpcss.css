@@ -23,12 +23,12 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 .cont-d-l {width: 100%;}
 .cont-d-m {width: 50%;}
 .cont-d-s {width: 25%;}
-/*grid containers*/
+/*grid containers. using them you should use gaps and cont-l always*/
 .grid-1,.grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-2-dyna {display: grid;}
 /*-dyna means it will dynamically change its layout depending on screen width*/
 .grid-1 {grid-template-columns: repeat(1,1fr);}
 .grid-2, .grid-2-dyna {grid-template-columns: repeat(2,1fr);}
-.grid-3 {grid-template-columns: repeat(3,1fr);}
+.grid-3, .grid-3-dyna {grid-template-columns: repeat(3,1fr);}
 .grid-4 {grid-template-columns: repeat(4,1fr);}
 .grid-5 {grid-template-columns: repeat(5,1fr);}
 .grid-6 {grid-template-columns: repeat(6,1fr);}
@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
     flex-direction: column;
 }
 .col-cent {
+    /*needs to have col assigned to html element tho*/
     margin: 0 auto;
 }
 /*flex features*/ 
@@ -166,6 +167,7 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 @media (max-width:1200px) {
     .cont-s {width: 50%;}
     .cont-m {width: 75%;}
+    .grid-3-dyna {grid-template-columns: repeat(1,1fr);}
 }
 @media (max-width:600px) {
     .cont-s {width: 100%;}
