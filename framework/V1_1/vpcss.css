@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
     display: flex;
     flex-direction: column;
 }
+.col-cent {
+    margin: 0 auto;
+}
 /*flex features*/ 
 .space-between {
     display: flex;
@@ -76,6 +79,27 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;}
 .space-evenly {
     display: flex;
     justify-content: space-evenly;
+}
+.flex-left {
+    display: flex;
+    justify-content: left;
+}
+.flex-right {
+    display: flex;
+    justify-content: right;
+}
+.flex-cent {
+    display: flex;
+    justify-content: center;
+}
+/*texts*/
+.hero-divider {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10px;
+    padding: 50px;
+    background-color: var(--bg-nav);
 }
 /*text aligns*/
 .text-center {text-align: center;}
