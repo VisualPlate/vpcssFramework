@@ -1,5 +1,5 @@
 # 🎨 VPCSS framework
-a CSS framework for my own Web-projects which is really good for making container quickly. 
+a CSS framework for my own Web-projects which is really good for making containers quickly. 
 
 ## ✨ Features
   ⚡Fast and simple container setup – build base layout in seconds  
@@ -16,7 +16,7 @@ Add the following tags inside your your ``` <head> ``` in project:
 ```
 To add containers, you can use this example inside ``` <body> ```
 ```
-<div class="mrg-in-25 max-1200 col">
+<div class="mrg-in-25 max-1200 col col-cent">
     <h1 class="text-primary">Container Header</h1>
     <div class="cont-l mrg-bl-10">
         full size container
@@ -33,7 +33,7 @@ To add containers, you can use this example inside ``` <body> ```
 ## For Older version
   ⚡Older version still work - they arent just updated anymore  
   ⚡They will be available - as long as this project exists somewhere  
-  ⚡To use older version browse and check out the /framewrok folder for versions
+  ⚡To use older version browse and check out the /framework folder for versions
   
 ## 📜 License
   This project is licensed with MIT license - so use it anywhere you need
