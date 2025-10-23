@@ -16,7 +16,7 @@ Add the following tags inside your your ``` <head> ``` in project:
 ```
 To add containers, you can use this example inside ``` <body> ```
 ```
-<div class="mrg-in-25 max-1200 col col-cent">
+<div class="max-1200 grid-1 grid-cent">
     <h1 class="text-primary">Container Header</h1>
     <div class="cont-l mrg-bl-10">
         full size container
